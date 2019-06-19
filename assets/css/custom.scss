@@ -1,0 +1,43 @@
+---
+# Lets add a comment to make this file sass-y.
+# Change this file for any custom CSS.
+---
+// Import partials from `sass_dir` (defaults to `_sass`)
+
+@import
+	"syntax"
+;
+
+.left-icon
+{
+	width:90px;
+	float:left;
+	margin: 0 20px 0 0;
+}
+
+.right-content
+{
+	float:left;
+	max-width:67%;
+	width:auto;
+}
+.text-mute
+{
+	color: #666;
+    font-size: 0.95rem;
+    line-height: 1.8;
+    font-weight: 400;
+	text-align: inherit;
+	font-family: "Rubik", -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
+}
+
+.service-bg
+{
+	background: url('/assets/images/bg.jpg');
+	padding: 3.5em 0;
+}
+
+.mrg-btm-30
+{
+	margin-bottom:30px;
+}
