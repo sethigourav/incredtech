@@ -6,7 +6,7 @@ meta_description: "Web and Mobile Development"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 paginate: 12
-baseurl: ''
+baseurl: '/'
 email: 'wowthemesnet@gmail.com'
 google_analytics: 'UA-46278016-1'
 disqus: 'demowebsite'
@@ -50,3 +50,4 @@ jekyll-archives:
 # Other
 markdown: kramdown
 highlighter: rouge
+theme: jekyll-theme-architect
