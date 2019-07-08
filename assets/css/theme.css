@@ -37,16 +37,17 @@ pre {
 	/* background: #fff; */
         transition: top 0.5s ease-in-out;
         padding: 1.5rem 1rem;
-        box-shadow: 0px 10px 40px 0px rgba( 0, 0, 0, 0.05 );
+        /* box-shadow: 0px 10px 40px 0px rgba( 0, 0, 0, 0.05 ); */
 }
-.nav-up {box-shadow:none;}
+.nav-up {box-shadow:none;
+    background: #323030;}
 
 .navbar-light .navbar-brand.brand-logo
 {
     color:#fff;
     font-family: Raleway, sans-serif;
     font-size:40px;
-    font-weight:800;
+    font-weight:600;
 
 }
 .navbar-light .navbar-brand.brand-logo span
@@ -403,12 +404,12 @@ span.post-name a,span.post-read-more a:hover {
     line-height: 40px;
     text-align: center;
     display: inline-block;
-    background: #ffffff;
-    border-radius: 3px;
+    border: 1px solid #ffffff;
+    border-radius: 50%;
     box-shadow: 0 6px 10px 0 rgba(0,0,0,0.1);
     font-size: 18px;
     margin-left: 5px;
-    color: #3c3838;
+    color: #fff;
     margin-top: 10px;
 }
 .beforefooter {
@@ -424,11 +425,10 @@ span.post-name a,span.post-read-more a:hover {
 .footer a {color:inherit;}
 .footer a:hover {color:#fff; text-decoration:none;}
 .footer-widget {margin-bottom: 3rem;    margin-top: 3rem;font-size:15px;}
-.footer-widget h5.title {font-size:18px; text-transform:uppercase;letter-spacing:1px;color:#fff;margin-bottom:1.5rem;}
+.footer-widget h5.title {font-size:18px; text-transform:uppercase;letter-spacing:1px;color:#fff;margin-bottom:1.5rem; font-weight:400;}
 .footer-widget ul {list-style:none;padding-left:0;}
 .footer-widget ul li {margin:12px 0;}
 .footer-widget .recent-posts img {float:left;margin-right:10px;}
-.footer .textwidget a {    border-bottom: 1px dashed;}
 .beforefooter h3 {margin-bottom:1rem;}
 .copyright {  padding-top: 1.5rem; font-size:0.9em; }
 .copyright a {color:#eee;}
