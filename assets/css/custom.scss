@@ -10,9 +10,8 @@
 
 .left-icon
 {
-	width:90px;
-	float:left;
-	margin: 0 20px 0 0;
+	width: 70px;
+    float: left;
 }
 
 .right-content
@@ -41,6 +40,10 @@
 {
 	margin-bottom:30px;
 }
+.mrg-btm-40
+{
+	margin-bottom:40px;
+}
 
 .cust-head
 {
@@ -49,4 +52,21 @@
 .white-fg
 {
 	color:#fff;
+}
+.font-size-18
+{
+	font-size:18px;
+}
+
+.animated.delay-1 {
+    -webkit-animation-delay: 0.10s;
+    animation-delay: 0.10s;
+}
+.animated.delay-2 {
+    -webkit-animation-delay: 0.20s;
+    animation-delay: 0.20s;
+}
+.animated.delay-3 {
+    -webkit-animation-delay: 0.30s;
+    animation-delay: 0.30s;
 }
