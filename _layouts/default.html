@@ -12,8 +12,10 @@
 <link rel='stylesheet'href='//fonts.googleapis.com/css?family=Megrim|Raleway|Open+Sans:400,400italic,700,700italic' type='text/css' media='all' />
 <link href="{{ site.baseurl }}/assets/css/theme.css" rel="stylesheet">
 <link href="{{ site.baseurl }}/assets/css/icomoon.css" rel="stylesheet">
-<link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
 <link href="{{ site.baseurl }}/assets/animate/animate.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/custom.css" rel="stylesheet">
+
     
 <!-- {{site.sharethis}} -->
     
@@ -91,10 +93,11 @@
                 <li class="nav-item">                
                     <a class="nav-link" href="{{ site.baseurl }}/contact">Contact Us</a>
                 </li>
+            </ul>
                 
 <!--         
                 
-            </ul>
+         
             <!-- End Menu -->
             
         </div>
@@ -128,8 +131,68 @@
     </div>
 
     </div><!-- /.container --> 
+ <!-- Testimonials
+    ================================================== --> 
 
-
+    <section id="testimonials" class="section-bg">
+        <div class="container">
+  
+            <h2 class="section-heading text-uppercase text-center mb-5">Testimonials</h2>
+  
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+  
+              <div class="owl-carousel testimonials-carousel wow fadeInUp">
+      
+                <div class="testimonial-item">
+                  <!-- <img src="img/testimonial-1.jpg" class="testimonial-img" alt=""> -->
+                  <h3>Saul Goodman</h3>
+                  <h4>Ceo &amp; Founder</h4>
+                  <p>
+                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                  </p>
+                </div>
+      
+                <div class="testimonial-item">
+                  <h3>Sara Wilsson</h3>
+                  <h4>Designer</h4>
+                  <p>
+                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                  </p>
+                </div>
+      
+                <div class="testimonial-item">
+                  <h3>Jena Karlis</h3>
+                  <h4>Store Owner</h4>
+                  <p>
+                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                  </p>
+                </div>
+      
+                <div class="testimonial-item">
+                  <h3>Matt Brandon</h3>
+                  <h4>Freelancer</h4>
+                  <p>
+                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                  </p>
+                </div>
+      
+                <div class="testimonial-item">
+                  <h3>John Larson</h3>
+                  <h4>Entrepreneur</h4>
+                  <p>
+                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                  </p>
+                </div>
+  
+              </div>
+  
+            </div>
+          </div>
+  
+  
+        </div>
+      </section>
 
     <!-- Before Footer
     ================================================== --> 
@@ -139,7 +202,7 @@
                 <div class="col-md-12">
                     <h2 class="cust-head p-3 white-fg">HIRE DEDICATED DEVELOPERS</h2>
                     <p class="p-2 fa-2x white-fg">We believe talent wins games, but teamwork and intelligence win championships.</p>
-                    <a class="btn btn-primary btn-lg m-3" href="#">Hire Developers</a>
+                    <a class="btn btn-primary btn-lg m-3 wow animated pulse delay-3" href="#">Hire Developers</a>
                 </div>
             </div>
         </div>
@@ -158,17 +221,27 @@
                              <i class="fa fa-pinterest"></i>
                              <i class="fa fa-github"></i>
                         </div> -->
+                                 
                         <div class="col-sm-12">
-                                <div class="footer-widget textwidget">
+                                 <div class="footer-widget textwidget">
                     <div class="col-sm-3 pull-left">
-                            <h5 class="title">About Us</h5>
-                            <ul>
-                                    <li><p>D-108D, Phase 7, Industrial Area. Mohali</p></li>
-                            </ul>
+
+                            <h5 class="title">Reach Us At</h5>
+                            <ul class="mb-5">
+                                    <li><a href="mailto:info@incredtech.com"><i class="fa fa-envelope"></i> info@incredtech.com</a></li>
+                                    <li><a href="mailto:garry@incredtech.com"><i class="fa fa-envelope"></i> garry@incredtech.com</a></li>
+                             </ul>
+                            <h5 class="title">Technologies</h5>
+                            <ul>    
+                                    <li><a href="#">Agular and Node js</a></li>
+                                    <li><a href="#">.Net</a></li>
+                                    <li><a href="#">PHP and Wordpress</a></li>
+                                    <li><a href="#">Java</a></li>
+                                </ul>
                     </div>
-                </div>
+                </div> 
                 <div class="footer-widget textwidget">
-                        <div class="col-sm-3 pull-left">
+                        <div class="col-sm-4 pull-left">
                                 <h5 class="title">Services</h5>
                             <ul>    
                                 <li><a href="#">Web Designing and Development</a></li>
@@ -180,8 +253,8 @@
                             </ul>
                         </div>
                 </div>
-                <div class="footer-widget textwidget">
-                            <div class="col-sm-3 pull-left">
+                <!-- <div class="footer-widget textwidget">
+                            <div class="col-sm-2 pull-left">
                                     <h5 class="title">Technologies</h5>
                                     <ul>    
                                             <li><a href="#">Agular and Node js</a></li>
@@ -190,18 +263,43 @@
                                             <li><a href="#">Java</a></li>
                                         </ul>
                             </div>
-                        </div>                    
+                        </div>                     -->
                         <div class="footer-widget textwidget">
-                                <div class="col-sm-3 pull-left">
+                                <div class="col-sm-5 pull-left">
                                         <h5 class="title">Get in touch</h5>
                                         <ul>    
-                                                <li><a href="mailto:info@incredtech.com"><i class="fa fa-envelope"></i> info@incredtech.com</a></li>
-                                                <li><a href="mailto:garry@incredtech.com"><i class="fa fa-envelope"></i> garry@incredtech.com</a></li>
+                    
                                                 <li><a href="#"></a></li>
                                                 <li><a href="#"></a></li>
                                         </ul>
-                                </div>
+                               
+                               
+                                <form action="https://formspree.io/{{site.email}}" method="POST">
+    
+                                    <div class="form-group row">
+                                
+                                        <div class="col-md-6">
+                                            <input class="form-control" type="text" name="name" placeholder="Name">
+                                        </div>
+                                
+                                        <div class="col-md-6">
+                                            <input class="form-control" type="email" name="_replyto" placeholder="E-mail Address">
+                                        </div>                                                                      
+                                
+                                    </div>
+                                    <div class="form-group row">
+                                            <div class="col-md-12">
+                                                    <input class="form-control" type="text" name="_replyto" placeholder="Subject">
+                                            </div>
+                                    </div>
+
+                                
+                                    <textarea rows="8" class="form-control mb-3" name="message" placeholder="Message"></textarea>
+                                    
+                                    <input class="btn btn-primary pull-right" type="submit" value="Send">
+                                </form>
                             </div>
+                        </div>
                         </div>
                 </div>
             </div>
@@ -237,7 +335,8 @@
 <script type='text/javascript' src='{{ site.baseurl }}/assets/js/masonry.pkgd.min.js'></script>
     
 <script src="{{ site.baseurl }}/assets/js/theme.js"></script>  
-<script src="{{ site.baseurl }}/assets/wow/wow.js"></script>    
+<script src="{{ site.baseurl }}/assets/lib/wow/wow.js"></script>    
+<script src="{{ site.baseurl }}/assets/lib/owlcarousel/owl.carousel.js"></script>    
 
 </body>
     
@@ -245,3 +344,30 @@
 <script>
         new WOW().init();
         </script>
+
+         <script>
+    $(document).ready(function() {
+
+    
+  // Porfolio isotope and filter
+  $(window).on('load', function () {
+    var portfolioIsotope = $('.portfolio-container').isotope({
+      itemSelector: '.portfolio-item'
+    });
+    $('#portfolio-flters li').on( 'click', function() {
+      $("#portfolio-flters li").removeClass('filter-active');
+      $(this).addClass('filter-active');
+  
+      portfolioIsotope.isotope({ filter: $(this).data('filter') });
+    });
+  });
+
+  // Testimonials carousel (uses the Owl Carousel library)
+  $(".testimonials-carousel").owlCarousel({
+    autoplay: true,
+    dots: true,
+    loop: true,
+    items: 1
+  });
+});
+</script>

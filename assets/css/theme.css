@@ -384,7 +384,7 @@ span.post-name a,span.post-read-more a:hover {
     width: 70%;
     padding: 4rem;
     max-width: 90%;
-    margin: 90px 20px 0;
+    margin: 60px 20px 0;
     /* text-align: center; */
 }
 .footer {
@@ -419,7 +419,7 @@ span.post-name a,span.post-read-more a:hover {
     margin-bottom: -50px; 
     /* margin-top:50px; */
 }
-.footer a {color:inherit;}
+.footer a,.footer li {color:#656565;}
 .footer a:hover {color:#fff; text-decoration:none;}
 .footer-widget {margin-bottom: 3rem;    margin-top: 3rem;font-size:15px;}
 .footer-widget h5.title {font-size:18px; text-transform:uppercase;letter-spacing:1px;color:#fff;margin-bottom:1.5rem; font-weight:400;}
